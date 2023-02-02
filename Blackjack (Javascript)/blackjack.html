@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='./style.css' rel="stylesheet"></link>
+    </head>
+    <header>
+        <h1>Blackjack</h1>
+        <h3 id="win-counter">Computer wins = 0 Player wins = 0</h3>
+        <button id="new-game">New game</button>
+    </header>
+    <body>
+        <section id="computer" class="player">
+            <h2 class="player-identifier">Dealer's cards:</h2>
+            <h3 id = 'compHandValue'></h3>
+            <table class="cards">
+                <tr class="card-row" id="computer-row">
+                    <td><image src = "./card_images/card_back.png"></image></td>
+                    <td id="hidden_Card"><image src = "./card_images/card_back.png"></image></td>
+                </tr>
+            </table>
+        </section>
+        <section id="human" class="player">
+            <h2 class="player-identifier">Your cards:</h2>
+            <h3 id = 'humanHandValue'>Press new game!</h3>
+            <button id="hit" disabled="true">Hit!</button>
+            <button id="stand" disabled="true">Stand</button>
+            <table class="cards">
+                <tr class="card-row" id="player-row">
+                    <td><image src = "./card_images/card_back.png"></image></td>
+                    <td><image src = "./card_images/card_back.png"></image></td>
+                </tr>
+            </table>
+        </section>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="./javascript.js"></script>
+    </body>
+</html>

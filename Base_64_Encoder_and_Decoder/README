@@ -1,0 +1,6 @@
+Function that converts the value of the String to and from Base64 using the ASCII (UTF-8 for C#) character set.
+Does not use any imported modules, follows protocol of adding and removing '=' padding.
+
+Example (input -> output):
+'this is a string!!' -> 'dGhpcyBpcyBhIHN0cmluZyEh'
+

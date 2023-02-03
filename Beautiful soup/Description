@@ -1,2 +1,0 @@
-A simple scraper. Scrapes everypage and author information of from quotes.toscrape.com using Beautiful Soup. Includes a game that accesses the repository of quotes,
-where the user can guess the author of the quote. Game provides hints if user gets the name wrong.

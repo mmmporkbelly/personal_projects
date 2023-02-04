@@ -1,0 +1,26 @@
+This is a Vignere Cipher cracker. Currently, it only works on ciphertext containing only letters from the alphabet.
+
+What is a Vignere Cipher? 
+
+The Vigenère cipher is a classic cipher originally developed by Italian cryptographer Giovan Battista Bellaso and published in 1553. 
+It is named after a later French cryptographer Blaise de Vigenère, who had developed a stronger autokey cipher (a cipher that incorporates the message of the text into the key).
+
+The cipher is easy to understand and implement, but survived three centuries of attempts to break it, earning it the nickname "le chiffre indéchiffrable" or "the indecipherable cipher."
+
+From Wikipedia:
+
+The Vigenère cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. 
+
+It is a simple form of polyalphabetic substitution.
+
+. . .
+
+This cipher cracker includes an interface to input text directly or a txt file. First, it calculates all possible cipher key lengths by looking at the distance
+between all three letter cells that repeat. Then, it calculates the highest common denominator for all distances, and calculates the length of the key.
+The cracker then takes all possible key lengths and all possible keys, by analyzing the frequency of each letter in each key length iteration, and returns a list
+of likely keys. It then decodes the text key by key.
+
+If you would like to look at a simple decoder and encoder where you can create a class that stores the key and any alphabet you want to use, please look at 
+my Vignere_Cipher_Decoder_and_Encoder.
+
+This project is a cumulation of multiple codewars problems I have solved.

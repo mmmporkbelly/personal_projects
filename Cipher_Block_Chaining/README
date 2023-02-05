@@ -1,0 +1,7 @@
+This is the first code I have written without a prompt! It is a simplification of how CBC works.
+This code does the following things: takes a key and IV, XORs and encrypts each block, and presents a cipher text. The decryption also works.
+However, it does come with its limitations. It only works with base64 input and the inputted text has to be divisible by the key length. 
+IV has to also match the key length.
+
+I have also published this as a problem on codewars:
+https://www.codewars.com/kata/63df4ae526149626f9b92b50

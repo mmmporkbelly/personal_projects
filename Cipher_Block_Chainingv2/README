@@ -1,0 +1,9 @@
+This is version 2 of the Cipher_Block_Chaining obj
+I wrote a CBC (cipher block chaining) encoder and decoder. It's a simplified version, but I managed to improve my original version. 
+It now accepts: 
+
+  any length of text (provided characters used are base64 characters) 
+  a key with any set of characters (provided that characters used are base64 characters)
+  an IV (in binary, == length of key). It will XOR block by block (in CBC fashion, not ECB) 
+  
+It wil then encrypt with the given key. It will also decode the same text provided that it is decoded by the same encoder/decoder object. Please check it out! 

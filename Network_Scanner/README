@@ -1,0 +1,4 @@
+A network scanner using scapy and ARP packets. Broadcasts to all IP addresses specified, returns IP and MAC addresses of all devices.
+
+format on cli - python Network_Scanner.py -t 192.168.1.1/24
+(sends 256 packets)

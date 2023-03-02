@@ -1,0 +1,5 @@
+Mimics network server. Run code and connect to "server" and port with something like netcat. Will not accept a message larger than 512 bytes
+An example would be:
+nc <ip addr, or localhost if running locally> 9898
+<type message>
+IP of connecting machine and mesasge will be logged

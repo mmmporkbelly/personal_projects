@@ -1,0 +1,16 @@
+This is a website created using the Flask module, done through the guidance of this video: 
+
+https://www.youtube.com/watch?v=dam0GPOAvVI&ab_channel=TechWithTim
+
+I was able to learn a lot about web app building and building a web app with python on the backend, but it got me to think/realize that most of the coding that is shown
+on this project is very insecure.
+
+Some of the more obvious ones include:
+  - a short session key
+  - different messages for different failed logins (i.e. a right username and wrong pw gives a different msg from a wrong username and wrong passwd)
+  - no account lockout
+  - no MFA
+  - weak passwords
+  - no real input validation
+ And the list goes on and on.
+ My job is to now take this project, harden it, and then run a vulnerability assessment on the website. I will update the code in the next few weeks!

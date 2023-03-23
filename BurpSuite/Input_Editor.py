@@ -52,7 +52,7 @@ def add_after_every_line(file, number, insert, output):
           f' following file: {output}')
 
 
-def to_json(file, output):
+def to_json_list(file, output):
     try:
         fh = open(file, 'r')
         text = fh.read()
@@ -102,4 +102,4 @@ if __name__ == '__main__':
         number = input('How often would like to repeat this input? Enter a number\n')
         add_after_every_line(file_name, number, insert, output_name)
     elif command == '2':
-        to_json(file_name, output_name)
+        to_json_list(file_name, output_name)

@@ -1,0 +1,129 @@
+body {
+    background-size:2em 2em;
+    background-position:0em 1em,1em 0,0em 1em,1em 0,0 0,0 0,0 0,0 0,0 0;
+    background-image:
+        linear-gradient(
+            45deg,
+            #000 8%,
+            transparent 8%,
+            transparent 92%,
+            #000 92%
+            ),
+        linear-gradient(
+            -45deg,
+            #000 8%,
+            transparent 8%,
+            transparent 92%,
+            #000 92%
+            ),
+        linear-gradient(
+            -45deg,
+            #000 8%,
+            transparent 8%,
+            transparent 92%,
+            #000 92%
+        ),
+        linear-gradient(
+            45deg,
+            #000 8%,
+            transparent 8%,
+            transparent 92%,
+            #000 92%
+        ),
+        linear-gradient(
+            -45deg,
+            transparent 17%,
+            #000 17%,
+            #000 21%,
+            transparent 21%,
+            transparent 79%,
+            #000 79%,
+            #000 83%,
+            transparent 83%
+        ),
+        linear-gradient(
+            45deg,
+            transparent 29%,
+            #000 29%,
+            #000 33%,
+            transparent 33%,
+            transparent 67%,
+            #000 67%,
+            #000 71%,
+            transparent 71%
+        ),
+        linear-gradient(
+            -135deg,
+            #202020 10%,
+            #090909 33%,
+            transparent 33%,
+            transparent 67%,
+            #161616 67%,
+            #202020 90%
+        ),
+        linear-gradient(
+            135deg,
+            transparent 21%,
+            #161616 21%,
+            #2d2d2d 32.6%,
+            #161616 64.5%,
+            #202020 70.3%,
+            #090909 79%,
+            transparent 79%
+        ),
+        linear-gradient(
+            -135deg,
+            transparent 21%,
+            #161616 21%,
+            #202020 40%,
+            #202020 60%,
+            #090909 79%,
+            transparent 79%
+        );
+
+}
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Brush Script MT', cursive;
+    margin: 1em auto;
+}
+.submit {   
+    background-color: #4CAF50;   
+    width: 100%;  
+     color: white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+form {   
+     border: 3px solid #f1f1f1;   
+ }   
+input[type=text], input[type=password] {   
+     width: 100%;   
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;   
+     border: 2px solid white;   
+     box-sizing: border-box;   
+ }  
+button:hover {   
+     opacity: 0.7;   
+ }   
+.cancelbtn {   
+     /* width: auto;    */
+     padding: 10px 18px;  
+     margin: 10px 5px;  
+ }   
+     
+  
+.container {   
+     padding: 100px;   
+     /* background-color: lightblue;   */
+     padding-left: 500px;
+     padding-right: 500px;
+     color:white;
+ }   

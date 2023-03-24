@@ -1,0 +1,12 @@
+NIST SP 800-53A Revision 5, Assessing Security and Privacy Controls in Information Systems and Organizations
+Assessment Procedures Excel Spreadsheet
+
+Updated March 30, 2022
+
+The assessment procedures in NIST SP 800-53A Revision 5 are provided in multiple data formats. Please review this README before using the comma-separated value (CSV) and spreadsheet (XLSX) files available under "Supplemental Material" at https://csrc.nist.gov/publications/detail/sp/800-53A/rev-5/final.  The PDF of SP 800-53A is the authoritative source of the assessment procedures and assessment methodology. The CSV, XLSX, and plain text files, and OSCAL data, include the same data as the PDF assessment procedures with one exception. In the CSV and .XLSX file, a column titled "sort-as" was added to allow users using a spreadsheet program to SORT the controls in ascending (alphabetical) order. The values in this column indicate the relevant SP 800-53 control (or control enhancement), but are not used in any other publication or version of the SP 800-53A assessment procedures.  The sort-as column was included to provide the ability to sort the assessment procedures.  
+
+The sort-as column was added to ensure customers are able to sort the assessment procedures as they appear in the publication. Due to the structure of the NIST SP 800-53 control and control enhancements and the way that spreadsheet programs sort strings (ASCII sorting order), sorting by identifier will not result in the assessment procedures appearing in the correct order.
+
+Included in the March 30, 2022 Update: Minor, editorial/typographical errors that do not impact the technical content of the assessment procedures have been identified for correction for a future revision of the SP 800-53A PDF (Authoritative Source) have been corrected in the CSV and XLS files. For a full list of the identified issues, refer to the spreadsheet "SP 800-53A Revision 5 Corrections" posted at https://csrc.nist.gov/publications/detail/sp/800-53A/rev-5/final.  
+
+The list of identified issues spreadsheet will be updated as issues are discovered and reported. If there are any discrepancies noted in the content between the CSV, XLSX and the SP 800-53A Revision 5 PDF, please contact sec-cert@nist.gov and refer to the PDF as the normative source.
